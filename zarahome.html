@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    
+</head>
+<body style="background-color: #ffffff;" id="body">
+    <div id="container">
+        <div id="header">
+            <!-- ham moving function myFunction(this) -->
+    <div id="ham" onclick=" openNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <div id="zaraheader" onclick="headclick()">
+        <!-- <div>Z</div>
+        <div>A</div>
+        <div>R</div>
+        <div>A</div> -->
+        <div><a href="zarahome.html"><img class="headerimg" src="https://1000logos.net/wp-content/uploads/2017/05/Zara-log%D0%BE-720x303.png"></a></div>
+    </div>
+<div id="search">
+    <a href="SEARCh.html" >SEARCH</a>
+    <div></div>
+   
+</div>
+<div id="logbox">
+<div id="loggin"><a href="login.html">LOG IN</a></div>
+<div id="help"><a href="Help.html">HELP</a></div>
+<div id="cart"> <a href="zara_cart.html" id="checkcountcart">CART(0)</a></div>
+</div>
+
+    </div>
+    <div id="picbox">
+        <div id="man"><button class="leftbtn" onclick="plusDivs()">&#10094;</button>
+            <a href="man.html" id="leftA"> MAN</a>
+        </div>
+      
+        <div id="mainimg" onclick="takeme()"><img id="changeimg" src="https://static.zara.net/photos///2021/I/T/1/p/0267/420/800/2/w/750/0267420800_1_1_1.jpg?ts=1632730334059">
+            
+            <div style="font-size: 13px;">INTRODUCING THE FALL/WINTER 2021 COLLECTION</div>
+        </div>
+    
+        <div id="kids"><a href="kids.html" id="rightA">KIDS </a><button class="rightbtn" onclick="plusDivs()"><p>&#10095;</p></button></div>
+    </div>
+
+    <!-- continer end -->
+</div>
+<div id="secondndpage">
+    <label>JOIN OUR NEWSLETTER</label>
+    <input id="email" placeholder="ENTER YOUR EMAIL ADDRESS HERE" >
+    <div class="d4">
+        <a href="https://www.tiktok.com/@zara" class="hcolor acolor text_size">TIKTOK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/zara/" class="hcolor acolor text_size">INSTAGRAM</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/Zara" class="hcolor acolor text_size">FACEBOOK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/ZARA" class="hcolor acolor text_size">TWITTER</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://es.pinterest.com/zaraofficial" class="hcolor acolor text_size">PINTEREST</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="http://www.youtube.com/user/zara" class="hcolor acolor text_size">YOUTUBE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <div class="d5">
+        <h5 class="textmargin">NAME AND ADDRESS OF THE MANUFATURE</h5>
+        <h5 class="textmargin">INDUSTRIA DE DISENO TEXTTIL, S.A. (INDITEX, S.A.)</h5>
+        <h5 class="textmargin">AVENDIA DE LA DIPUTACION, EDIFICIO INDITEX, 15143, ARTEIXO (A CORUNA), SPAIN</h5>
+        </div>
+        </div>
+      
+       <!-- sidebarstart -->
+       <div id="mySidebar" class="sidebar">
+        <button href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</button>
+        <button onclick="myFunction()"  id="sidezara" class="dropdown"  >ZARA ATHLETICZ
+            <!-- dropdownstart -->
+            <!-- <div class="dropdown"> -->
+                <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="man.html">ABOUT</a>
+                  <a href="man.html">COLLECTION</a>
+                  <a href="man.html">STORIES</a>
+                  <a href="man.html">EXPERIENCE</a>
+                  <a href="man.html">STORES</a>
+                </div>
+              <!-- </div> -->
+              
+              <!-- dropdownend -->
+        </button>
+        <button id="sidewoman" class="dropdown2"  onclick="myFunction2()" >WOMAN
+            <div id="myDropdown2" class="dropdown-content2">
+                <a href="woman.html">COLLECTION</a>
+                <a href="woman.html"> NIGHT POWER COLLECTION <b style="font-size: 8px;">NEW</b></a>
+                <a href="woman.html">BLAZERS</a>
+                <a href="woman.html">DRESSES | JUMPSUITS</a>
+                <a href="woman.html">TOPS|BODYSUITS</a>
+                <a href="woman.html">SHIRTS</a>
+                <a href="woman.html">TROUSERS</a>
+                <a href="woman.html">T-SHIRTS</a>
+                <a href="woman.html">JEANS</a>
+                <a href="woman.html">SKIRTS&nbsp;| &nbsp;SHORTS</a>
+                <a href="woman.html">CO-ORD SETS</a>
+                
+                <a href="#contact">SUITS</a>
+                <a href="#about">KNITWEAR</a>
+                <a href="#contact">SWEATSHIRTS</a>
+              </div>
+        </button>
+        <button id="sideman"  class="dropdown3"  onclick="myFunction3()" >MAN
+            <div id="myDropdown3" class="dropdown-content3">
+                <a href="man.html">NEW</a>
+                <a href="woman.html"> ZARA ATHALETICZ <b style="font-size: 8px;">NEW</b></a>
+                <a href="woman.html">COLLECTION</a>
+                <a href="woman.html">HERITAGE <b style="font-size: 8px;">NEW</b></a>
+                <a href="woman.html">JACKETS</a>
+                <a href="woman.html">OVERSHIRTS</a>
+                <a href="woman.html"> GILETS</a>
+                <a href="woman.html">BLAZERS</a>
+                <a href="woman.html">SUITS</a>
+                <a href="woman.html">T-SHIRTS</a>
+                <a href="woman.html">HOODIES | SWEATSHIRTS</a>
+                <a href="woman.html">TRACKSUITS</a>
+                <a href="woman.html">KNITWEAR</a>
+                <a href="woman.html">POLO SHIRTS</a>
+                
+              </div>
+        </button>
+        <button id="sidekids" class="dropdown4"  onclick="myFunction4()">KIDS
+            <div id="myDropdown4" class="dropdown-content4">
+                <a href="kids.html">GIRL | 6 - 14 YEARS</a>
+                <a href="kids.html"> BOY | 6 - 14 YEARS</a>
+                <a href="kids.html"> BABY GIRL | 6 MONTHS - 5 YEARS</a>
+                <a href="kids.html">BABY BOY | 6 MONTHS  - 5 YEARS</a>
+                <a href="kids.html">ACCESSORIES</a>
+                <a href="kids.html">ZARASERIES</a>
+                <a href="kids.html">BESTSELLERS <b style="font-size: 8px;">NEW</b></a>
+              </div>
+        </button>
+        <button id="sideshoes" class="dropdown5"  onclick="myFunction5()">SHOE&BAGS
+            <div id="myDropdown5" class="dropdown-content5">
+                <a href="Shoes.html">WOMAN</a>
+                <a href="Shoes.html"> MAN</a>
+                <a href="Shoes.html">KIDS</a>
+               
+              </div>
+        </button>
+        <button id="sidejoininfo" style="margin-top: 15px;">JOIN INFO</button>
+        <button id="sideinfo">COVID 19 INFO</button>
+        <button id="sideinfo" style="margin-top: 15px;">+INFO</button>
+      </div>
+      <!-- <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+        <h2>Collapsed Sidebar</h2>
+        <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+      </div> -->
+      
+       <!-- sidebarend -->
+<script>
+    function myFunction(x) {
+  x.classList.toggle("change");
+}
+
+function headclick(){
+   
+   
+    window.location.href="man.html"
+}
+var changeimg=document.getElementById("changeimg");
+var imgbox=document.getElementById("mainimg")
+var imgdata=["https://static.zara.net/photos///2021/I/T/1/p/0267/420/800/2/w/750/0267420800_1_1_1.jpg?ts=1632730334059",
+"https://static.zara.net/photos///2021/I/T/2/p/0639/644/707/2/w/532/0639644707_15_1_1.jpg?ts=1632389495487",
+"https://static.zara.net/photos///2021/I/0/3/p/6357/494/801/202/w/448/6357494801_15_1_1.jpg?ts=1632394213709",
+"https://static.zara.net/photos///contents/mkt/spots/aw21-north-athleticz-newsletter/layout-figma-athleticz-newsletter//aw21-north-athleticz-newsletter.layout-figma-athleticz-newsletter.desktop-6f6583d207ff3a38f91a0a067fb9d2ce3278ae03-FILL-1.529_0.jpg?ts=1632756031442&imwidth=1440"]
+var i=1;
+var leftA=document.getElementById("leftA")
+var rightA=document.getElementById("rightA");
+var body=document.getElementById("container")
+
+function plusDivs(){
+    if(i==1){
+leftA.textContent="ZARA ATHALETICS";
+leftA.href="athelatics.html";
+rightA.href="woman.html";
+rightA.textContent="WOMAN";
+imgbox.style.width="650px";
+imgbox.onclick=function(){
+  window.location.href="man.html"
+}
+
+
+    }
+ else if(i===2){
+    leftA.textContent="MAN";
+    leftA.href="man.html";
+rightA.textContent="WOMAN";
+rightA.href="woman.html";
+imgbox.style.width="600px";
+imgbox.onclick=function(){
+  window.location.href="kids.html"
+}
+
+ }
+ else if(i==3){
+  
+    leftA.textContent="WOMAN";
+rightA.textContent="KIDS";
+leftA.href="woman.html";
+rightA.href="kids.html";
+imgbox.style.width="100%";
+imgbox.style.textOverflow="cover"
+body.style.backgroundColor="black";
+body.style.color="white"
+changeimg.style.marginTop="10px"
+
+changeimg.style.height=""
+imgbox.onclick=function(){
+  window.location.href="Athelatics.html"
+}
+ }
+    else{
+        leftA.textContent="MAN";
+rightA.textContent="KIDS";
+leftA.href="man.html";
+rightA.href="kids.html";
+imgbox.style.width="570px";
+body.style.backgroundColor="white";
+body.style.color="black"
+changeimg.style.marginTop="20%";
+imgbox.onclick=function(){
+  window.location.href="woman.html"
+}
+
+ }
+if(i>3){
+    i=0;
+}
+    if(i>=0){
+       
+changeimg.src=imgdata[i];
+console.log(i)
+i++;  
+    }
+   
+  
+}
+function takeme(){
+    window.location.href="woman.html";
+}
+//sidebarstart
+function openNav() {
+  document.getElementById("mySidebar").style.width = "180px";
+  document.getElementById("body").style.marginLeft = "30px";
+  document.getElementById("container").style.opacity="0.1"
+
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("body").style.marginLeft= "4px";
+document.getElementById("container").style.opacity="1"
+}
+// sidebarend
+// dropdownstart
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('#sidezara')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+
+  
+}
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('#sidewoman')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content2");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+
+  
+}
+function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('#sideman')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content3");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+
+  
+}
+function myFunction4() {
+  document.getElementById("myDropdown4").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('#sidekids')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content4");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+
+  
+}
+function myFunction5() {
+  document.getElementById("myDropdown5").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('#sideshoes')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content5");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+
+  
+}
+// dropdown end
+
+// checkcountcart
+var formdata= JSON.parse(localStorage.getItem('Zara_cart_dresses'))
+var checkcountcart= document.getElementById("checkcountcart")
+
+checkcountcart.textContent="CART("+formdata.length+")"
+</script>
+</body>
+
+</html>
